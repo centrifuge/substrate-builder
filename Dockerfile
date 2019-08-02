@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.10.1
-LABEL maintainer "philip@centrifuge.io"
+LABEL maintainer="philip@centrifuge.io"
 LABEL description="This is the image that underlies the build for substrate-based chains."
 
 RUN apt-get update && \
